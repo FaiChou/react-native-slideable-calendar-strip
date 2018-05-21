@@ -1,2 +1,2 @@
-import ImagePreviewer from './lib/CalendarStrip.js';
-module.exports = ImagePreviewer
+import CalendarStrip from './lib/CalendarStrip.js'
+module.exports = CalendarStrip
