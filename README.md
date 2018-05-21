@@ -5,6 +5,15 @@
 
 [Live Calendar Demo.mp4](http://o7bkcj7d7.bkt.clouddn.com/calendar-strip.MP4)
 
+### Feature
+
+1. Support pull down gesture
+2. Support go today
+3. Support support marked date
+4. Support Chinese lunar
+5. Support current week of this year (W21)
+6. Support both `Date` and Date string `('2018-01-01')` types
+
 ### How to use
 
 Install package:
