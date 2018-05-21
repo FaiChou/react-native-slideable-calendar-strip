@@ -1,5 +1,9 @@
 ## react-native-slideable-calendar-strip [![Build Status](https://travis-ci.org/FaiChou/react-native-slideable-calendar-strip.svg?branch=master)](https://travis-ci.org/FaiChou/react-native-slideable-calendar-strip) [![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/react-native-slideable-calendar-strip) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
+![CalendarStrip](http://o7bkcj7d7.bkt.clouddn.com/calendar-strip.PNG)
+
+[Live Calendar Demo.mp4](http://o7bkcj7d7.bkt.clouddn.com/calendar-strip.MP4)
+
 ### How to use
 
 Install package:
