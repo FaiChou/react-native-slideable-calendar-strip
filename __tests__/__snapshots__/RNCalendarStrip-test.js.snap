@@ -238,7 +238,6 @@ exports[`CalendarStrip renders correctly 1`] = `
     </View>
   </View>
   <RCTScrollView
-    automaticallyAdjustContentInsets={true}
     bounces={false}
     data={
       Array [

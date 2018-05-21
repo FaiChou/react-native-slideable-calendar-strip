@@ -8,13 +8,13 @@ describe('CalendarStrip', () => {
       <CalendarStrip
         selectedDate={new Date()}
         onPressDate={(date) => {
-          this.setState({ selectedDate: date });
+          console.log(date);
         }}
         onPressGoToday={(today) => {
-          this.setState({ selectedDate: today });
+          console.log(today);
         }}
         onSwipeDown={() => {
-          alert('onSwipeDown');
+          console.log('swipe down!');
         }}
         markedDate={['2018-05-04', '2018-05-15', '2018-06-04', '2018-05-01',]}
       />
