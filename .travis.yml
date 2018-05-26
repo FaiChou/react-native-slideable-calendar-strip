@@ -1,10 +1,9 @@
-os: osx
 language: node_js
 node_js:
   - "9.5.0"
 
 script:
-  - yarn test -u
+  - yarn test
 
 branches:
   only:
