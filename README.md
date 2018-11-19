@@ -61,4 +61,4 @@ markedDate       | Marked highlighted date array, Optional, `['2018-01-01', '201
 onSwipeDown      | Swipe down gesture callback, Optional, `() => {}`
 isChinese        | Show Chinese Week or not, default false,
 showChineseLunar | Show Chinese Lunar or not, default false,
-
+showWeekNumber   | Show week number or not, default false,
