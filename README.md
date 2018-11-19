@@ -34,6 +34,8 @@ Use the component:
 
 ```
 <CalendarStrip
+  isChinese
+  showChineseLunar
   selectedDate={this.state.selectedDate}
   onPressDate={(date) => {
     this.setState({ selectedDate: date });
@@ -50,11 +52,13 @@ Use the component:
 
 ### API
 
-API name       | Desc
----------------|----------------------------------------
-selectedDate   | The current selected date, Required.
-onPressDate    | Press date callback, Optional, `(date) => {}`
-onPressGoToday | Press gotoday button callback, Optional, `(today) => {}`
-markedDate     | Marked highlighted date array, Optional, `['2018-01-01', '2018-02-01']`
-onSwipeDown    | Swipe down gesture callback, Optional, `() => {}`
+API name         | Desc
+-----------------|----------------------------------------
+selectedDate     | The current selected date, Required.
+onPressDate      | Press date callback, Optional, `(date) => {}`
+onPressGoToday   | Press gotoday button callback, Optional, `(today) => {}`
+markedDate       | Marked highlighted date array, Optional, `['2018-01-01', '2018-02-01']`
+onSwipeDown      | Swipe down gesture callback, Optional, `() => {}`
+isChinese        | Show Chinese Week or not, default false,
+showChineseLunar | Show Chinese Lunar or not, default false,
 
