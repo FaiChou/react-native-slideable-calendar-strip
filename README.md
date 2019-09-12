@@ -15,6 +15,7 @@
 4. Support Chinese lunar
 5. Support current week of this year (W21)
 6. Support both `Date` and Date string `('2018-01-01')` types
+7. Support customized start of week
 
 ### How to use
 
@@ -50,6 +51,7 @@ Use the component:
     alert('onSwipeDown');
   }}
   markedDate={['2018-05-04', '2018-05-15', '2018-06-04', '2018-05-01']}
+  weekStartsOn={1} // 0,1,2,3,4,5,6 for S M T W T F S, defaults to 0
 />
 ```
 
