@@ -1,5 +1,5 @@
-import React, { PureComponent } from 'react';
-import { Alert, StyleSheet, View, Text, TouchableOpacity, Dimensions } from 'react-native';
+import React from 'react';
+import { StyleSheet, View, Text, TouchableOpacity, Dimensions } from 'react-native';
 import CalendarStrip from './CalendarStrip';
 const width = Dimensions.get('window').width;
 export default class App extends React.Component {
@@ -24,6 +24,7 @@ export default class App extends React.Component {
             alert('onSwipeDown');
           }}
           markedDate={['2018-05-04', '2018-05-15', '2018-06-04', '2018-05-01',]}
+          weekStartsOn={1} // 0, 1,2,3,4,5,6 for S M T W T F S, defaults to 0
         />
         <View style={{
           width,
