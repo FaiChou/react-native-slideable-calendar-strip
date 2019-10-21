@@ -1,5 +1,5 @@
 {
-  "name": "react-native-slideable-calendar-strip",
+  "name": "@liveauctioneers/react-native-slideable-calendar-strip",
   "version": "0.4.1-0",
   "keywords": [
     "calendar",
@@ -12,14 +12,14 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/FaiChou/react-native-slideable-calendar-strip.git"
+    "url": "https://github.com/liveauctioneers/react-native-slideable-calendar-strip.git"
   },
-  "author": "FaiChou",
+  "author": "FaiChou/liveauctioneers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FaiChou/react-native-slideable-calendar-strip/issues"
+    "url": "https://github.com/liveauctioneers/react-native-slideable-calendar-strip/issues"
   },
-  "homepage": "https://github.com/FaiChou/react-native-slideable-calendar-strip",
+  "homepage": "https://github.com/liveauctioneers/react-native-slideable-calendar-strip",
   "main": "index.js",
   "devDependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1"
