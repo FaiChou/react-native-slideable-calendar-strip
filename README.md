@@ -68,4 +68,4 @@ isChinese        | Show Chinese Week or not, default false,
 showChineseLunar | Show Chinese Lunar or not, default false,
 showWeekNumber   | Show week number or not, default false,
 weekStartsOn     | Set start of week, Optional, defaults to 0, `0 1 2 3 4 5 6` for `S M T W T F S`
-
+initialDate      | Set initial date to start with, defaults to `today`
